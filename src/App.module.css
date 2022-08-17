@@ -144,11 +144,12 @@ main {
 
 .task {
   height: 72px;
-  width: 100%;
+  width: 730px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   color: var(--gray-100);
 
   background-color: var(--gray-500);
@@ -158,6 +159,12 @@ main {
 
   font-size: 14px;
   margin-bottom: 12px;
+}
+
+.task > div {
+  width: 650px;
+  display: flex;
+  align-items: center;
 }
 
 .check {
@@ -172,11 +179,12 @@ main {
 
 .taskDone {
   height: 72px;
-  width: 100%;
+  width: 730px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   color: var(--gray-300);
 
   background-color: var(--gray-500);
@@ -188,6 +196,12 @@ main {
   margin-bottom: 12px;
 
   text-decoration: line-through;
+}
+
+.taskDone > div {
+  width: 650px;
+  display: flex;
+  align-items: center;
 }
 
 .checked {
